@@ -186,8 +186,14 @@ nav li a:hover {
 
 
 /* SECTION TWO */
-
 .section-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sec2wrapper {
+  width: 90%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -515,12 +521,6 @@ footer ul li:hover {
 /* MOBILE */
 
 @media only screen and (max-width: 500px) {
-  h1 {
-    font-size: 30px;
-    line-height: 45px;
-  }
-
-
   /* SECTION ONE */
   .logo {
     height: 30px;
@@ -533,10 +533,13 @@ footer ul li:hover {
   }
   .section-one-wrapper {
     width: 90%;
+    padding: 30px 0;
   }
   .section-one-wrapper h1 {
+    font-size: 28px;
+    line-height: 40px;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 30px;
   }
   .section-one-wrapper p {
     width: 100%;
@@ -578,6 +581,12 @@ footer ul li:hover {
     width: 100%;
     margin-top: 50px;
   }
+
+  .productive h1 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+
   /* SECTION FOUR */
   .s4wrapper {
     width: 90%;
@@ -602,6 +611,7 @@ footer ul li:hover {
   }
   .subscribe-wrapper {
     width: 90%;
+    margin: 20px auto;
   }
   form {
     flex-direction: column;
@@ -621,7 +631,7 @@ footer ul li:hover {
 
   /* FOOTER */
   .footer-wrapper {
-    padding-top: 150px;
+    padding-top: 180px;
     width: 90%;
     margin: 50px auto;
   }
@@ -634,5 +644,8 @@ footer ul li:hover {
   .navs-2,
   .socials {
     margin: 20px 0;
+  }
+  .socials i:nth-child(1) {
+    margin-left: 0;
   }
 }
