@@ -566,6 +566,9 @@ footer ul li:hover {
     margin-left: 0;
     margin-top: 50px;
   }
+  .feature {
+    width: 100%;
+  }
 
 
   /* SECTION-THREE */
